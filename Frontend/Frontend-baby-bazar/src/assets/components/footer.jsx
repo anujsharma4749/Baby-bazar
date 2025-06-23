@@ -77,7 +77,7 @@ export default function BabyBazarFooter() {
         {/* Copyright */}
         <div className="border-t border-pink-500 pt-8">
           <p className="text-center text-gray-600 text-sm">
-            ALL RIGHTS RESERVED Â©️2024 BY JBH TECH INNOVATIONS
+            ALL RIGHTS RESERVED Â©️2025 BY JBH TECH INNOVATIONS
           </p>
         </div>
       </div>
