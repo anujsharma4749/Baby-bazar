@@ -15,7 +15,7 @@ const ShopPage = () => {
       originalPrice: 390,
       salePrice: 300,
       rating: 4.5,
-      image: "https://via.placeholder.com/150x150/FF69B4/FFFFFF?text=Mamy+Poko",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const ShopPage = () => {
       salePrice: 800,
       rating: 4.5,
       image:
-        "https://via.placeholder.com/150x150/32CD32/FFFFFF?text=Water+Ducks",
+        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ const ShopPage = () => {
       salePrice: 1000,
       rating: 4.5,
       image:
-        "https://via.placeholder.com/150x150/87CEEB/FFFFFF?text=Baby+Feeding",
+        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
     },
   ];
 
@@ -43,7 +43,7 @@ const ShopPage = () => {
       name: "Kids Shoe",
       price: 500,
       rating: 3.5,
-      image: "https://via.placeholder.com/280x200/40E0D0/FFFFFF?text=Kids+Shoe",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-3.webp",
     },
     {
       id: 2,
@@ -51,7 +51,7 @@ const ShopPage = () => {
       price: 500,
       rating: 4.5,
       image:
-        "https://via.placeholder.com/280x200/FFB6C1/FFFFFF?text=Johnson+Oil",
+        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
     },
     {
       id: 3,
@@ -59,14 +59,14 @@ const ShopPage = () => {
       price: 500,
       rating: 3,
       image:
-        "https://via.placeholder.com/280x200/FF6347/FFFFFF?text=Kitchen+Set",
+        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
     },
     {
       id: 4,
       name: "Mamy Poko Pants",
       price: 300,
       rating: 3,
-      image: "https://via.placeholder.com/280x200/4169E1/FFFFFF?text=Mamy+Poko",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-3.webp",
     },
     {
       id: 5,
@@ -74,7 +74,7 @@ const ShopPage = () => {
       price: 800,
       rating: 5,
       image:
-        "https://via.placeholder.com/280x200/32CD32/FFFFFF?text=Water+Ducks",
+        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
     },
     {
       id: 6,
@@ -82,7 +82,7 @@ const ShopPage = () => {
       price: 1000,
       rating: 4,
       image:
-        "https://via.placeholder.com/280x200/87CEEB/FFFFFF?text=Baby+Feeding",
+        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
     },
     {
       id: 7,
@@ -90,14 +90,14 @@ const ShopPage = () => {
       price: 799,
       rating: 5,
       image:
-        "https://via.placeholder.com/280x200/DDA0DD/FFFFFF?text=Feeding+Device",
+        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
     },
     {
       id: 8,
       name: "Kid Toys",
       price: 799,
       rating: 4,
-      image: "https://via.placeholder.com/280x200/90EE90/FFFFFF?text=Kid+Toys",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
     },
     {
       id: 9,
@@ -106,7 +106,7 @@ const ShopPage = () => {
       salePrice: 19,
       rating: 4.5,
       image:
-        "https://via.placeholder.com/280x200/191970/FFFFFF?text=Girl+Dress",
+        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
     },
   ];
 

@@ -22,7 +22,7 @@ export default function BabyBazarHomepage() {
       id: 1,
       name: "Kitchen Set",
       price: "₹500",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
       rating: 4,
       category: "New",
     },
@@ -30,7 +30,7 @@ export default function BabyBazarHomepage() {
       id: 2,
       name: "Baby Feeding Device",
       price: "₹799",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
       rating: 5,
       category: "Popular",
     },
@@ -38,7 +38,7 @@ export default function BabyBazarHomepage() {
       id: 3,
       name: "Kid Toys",
       price: "₹799",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
       rating: 4,
       category: "New",
     },
@@ -46,7 +46,7 @@ export default function BabyBazarHomepage() {
       id: 4,
       name: "Mamy Poko Pants",
       price: "₹300",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
       rating: 4,
       category: "Sale",
     },
@@ -54,7 +54,7 @@ export default function BabyBazarHomepage() {
       id: 5,
       name: "Soft Plush Teddy",
       price: "₹450",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-4.jpg",
       rating: 5,
       category: "Popular",
     },
@@ -62,7 +62,7 @@ export default function BabyBazarHomepage() {
       id: 6,
       name: "Baby Shoes",
       price: "₹600",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-4.jpg",
       rating: 3.5,
       category: "Sale",
     },
@@ -70,7 +70,7 @@ export default function BabyBazarHomepage() {
       id: 7,
       name: "Wooden Puzzle",
       price: "₹350",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-4.jpg",
       rating: 4,
       category: "New",
     },
@@ -78,7 +78,7 @@ export default function BabyBazarHomepage() {
       id: 8,
       name: "Baby Shampoo",
       price: "₹250",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-4.jpg",
       rating: 4.5,
       category: "Popular",
     },
@@ -86,7 +86,7 @@ export default function BabyBazarHomepage() {
       id: 9,
       name: "Kitchen Set",
       price: "₹500",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
       rating: 4,
       category: "New",
     },
@@ -94,7 +94,7 @@ export default function BabyBazarHomepage() {
       id: 10,
       name: "Baby Shampoo",
       price: "₹250",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
       rating: 4.5,
       category: "Popular",
     },
@@ -102,7 +102,7 @@ export default function BabyBazarHomepage() {
       id: 11,
       name: "Baby Shoes",
       price: "₹600",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
       rating: 3.5,
       category: "Sale",
     },
@@ -110,7 +110,7 @@ export default function BabyBazarHomepage() {
       id: 12,
       name: "Baby Shoes",
       price: "₹600",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
       rating: 3.5,
       category: "Sale",
     },
@@ -121,28 +121,34 @@ export default function BabyBazarHomepage() {
       id: 1,
       name: "Mamy Poko Pants",
       price: "₹300",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
       rating: 4,
+      sizes: ["S", "M", "L", "XL"],
+      colors: ["pink", "blue", "green", "orange"],
     },
     {
       id: 2,
       name: "Water Ducks",
       price: "₹800",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
       rating: 5,
+      sizes: ["S", "M", "L", "XL"],
+      colors: ["pink", "blue", "green", "orange"],
     },
     {
       id: 3,
       name: "Baby Feeding",
       price: "₹1000",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
       rating: 4,
+      sizes: ["S", "M", "L", "XL"],
+      colors: ["pink", "blue", "green", "orange"],
     },
     {
       id: 4,
       name: "Kids Shoe",
       price: "₹500",
-      image: "/api/placeholder/300/300",
+      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
       rating: 4,
       sizes: ["S", "M", "L", "XL"],
       colors: ["pink", "blue", "green", "orange"],
@@ -150,10 +156,10 @@ export default function BabyBazarHomepage() {
   ];
 
   const categories = [
-    { name: "Baby Oil", image: "/api/placeholder/200/200" },
-    { name: "Feeding Products", image: "/api/placeholder/200/200" },
-    { name: "Diapers", image: "/api/placeholder/200/200" },
-    { name: "Toys", image: "/api/placeholder/200/200" },
+    { name: "Baby Oil", image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp" },
+    { name: "Feeding Products", image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp" },
+    { name: "Diapers", image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-3.webp" },
+    { name: "Toys", image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-4.webp" },
   ];
 
   const renderStars = (rating) => {
@@ -198,7 +204,7 @@ export default function BabyBazarHomepage() {
       <section className="relative bg-gradient-to-r from-white to-pink-50 min-h-[500px] flex items-center overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 lg:px-8 w-full flex items-center relative">
           {/* Left arrow */}
-          <button className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-pink-200 hover:bg-pink-300 p-3 rounded-full ">
+          <button className="absolute left-[-20px] top-1/2 transform -translate-y-1/2 bg-pink-200 hover:bg-pink-300 p-3 rounded-full ">
             <ChevronLeft className="w-6 h-6 text-gray-700" />
           </button>
 
@@ -225,7 +231,7 @@ export default function BabyBazarHomepage() {
           </div>
 
           {/* Right arrow */}
-          <button className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-pink-200 hover:bg-pink-300 p-3 rounded-full ">
+          <button className="absolute right-[-20px] top-1/2 transform -translate-y-1/2 bg-pink-200 hover:bg-pink-300 p-3 rounded-full ">
             <ChevronRight className="w-6 h-6 text-gray-700" />
           </button>
         </div>
@@ -329,7 +335,7 @@ export default function BabyBazarHomepage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="relative">
                 <img
-                  src="/api/placeholder/600/300"
+                  src="https://babyproducts.jbhtechinnovation.com/assets/images/banner/happy-baby-gift-pack-mega-baske.webp"
                   alt="New Season Sale"
                   className="w-full h-64 object-cover"
                 />
@@ -350,7 +356,7 @@ export default function BabyBazarHomepage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="relative">
                 <img
-                  src="/api/placeholder/600/300"
+                  src="https://babyproducts.jbhtechinnovation.com/assets/images/banner/baby-gift-pack-product.webp"
                   alt="BodyCare Products"
                   className="w-full h-64 object-cover"
                 />
@@ -377,7 +383,7 @@ export default function BabyBazarHomepage() {
           </h2>
 
           <div className="relative">
-            <button className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-pink-400 hover:bg-pink-500 text-white p-3 rounded-full z-10">
+            <button className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-pink-400 hover:bg-pink-500 text-white p-3 rounded-full ">
               <ChevronLeft className="w-6 h-6" />
             </button>
 
@@ -436,7 +442,7 @@ export default function BabyBazarHomepage() {
               ))}
             </div>
 
-            <button className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-pink-400 hover:bg-pink-500 text-white p-3 rounded-full z-10">
+            <button className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-pink-400 hover:bg-pink-500 text-white p-3 rounded-full ">
               <ChevronRight className="w-6 h-6" />
             </button>
           </div>
