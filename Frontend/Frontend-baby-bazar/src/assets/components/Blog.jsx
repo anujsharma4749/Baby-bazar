@@ -21,7 +21,7 @@ const Blog = () => {
         </div>
 
         {/* Content */}
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-4 relative ">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
               A Small Smile for a Beautiful Life

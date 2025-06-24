@@ -198,12 +198,12 @@ export default function BabyBazarHomepage() {
       <section className="relative bg-gradient-to-r from-white to-pink-50 min-h-[500px] flex items-center overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 lg:px-8 w-full flex items-center relative">
           {/* Left arrow */}
-          <button className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-pink-200 hover:bg-pink-300 p-3 rounded-full z-10">
+          <button className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-pink-200 hover:bg-pink-300 p-3 rounded-full ">
             <ChevronLeft className="w-6 h-6 text-gray-700" />
           </button>
 
           {/* Text Content */}
-          <div className="flex-1 max-w-md z-10">
+          <div className="flex-1 max-w-md ">
             <h1 className="text-5xl font-bold text-gray-900 mb-2">
               Spring Season
             </h1>
@@ -225,7 +225,7 @@ export default function BabyBazarHomepage() {
           </div>
 
           {/* Right arrow */}
-          <button className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-pink-200 hover:bg-pink-300 p-3 rounded-full z-10">
+          <button className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-pink-200 hover:bg-pink-300 p-3 rounded-full ">
             <ChevronRight className="w-6 h-6 text-gray-700" />
           </button>
         </div>

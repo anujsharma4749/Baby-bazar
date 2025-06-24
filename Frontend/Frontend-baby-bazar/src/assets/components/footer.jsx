@@ -7,7 +7,10 @@ export default function BabyBazarFooter() {
   };
 
   return (
-    <footer className="bg-pink-100 pt-16 pb-8 relative">
+    <footer
+  className="pt-16 pb-8 relative"
+  style={{ background: "linear-gradient(to right, #faabba, #fff, #fab4c1)" }}
+>
       <div className="max-w-7xl mx-auto px-4 lg:px-8">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
@@ -15,14 +18,11 @@ export default function BabyBazarFooter() {
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-6">
               <img 
-                src="/api/placeholder/48/48" 
+                src="https://babyproducts.jbhtechinnovation.com/assets/images/logo.webp" 
                 alt="BabyBazar Logo" 
-                className="w-12 h-12 rounded-full object-cover"
+                className="w-full object-cover"
               />
-              <div>
-                <h2 className="text-2xl font-bold text-pink-500">BabyBazar</h2>
-                <p className="text-xs text-gray-600">For Your Kids & Toddlers</p>
-              </div>
+              
             </div>
             
             <div className="space-y-3 text-gray-700">
