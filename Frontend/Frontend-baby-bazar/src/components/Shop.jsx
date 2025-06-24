@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ChevronDown, ChevronLeft, ChevronRight } from "lucide-react";
 import Footer from "./footer.jsx";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar.jsx";
 
 const ShopPage = () => {
   const [showItems, setShowItems] = useState(8);

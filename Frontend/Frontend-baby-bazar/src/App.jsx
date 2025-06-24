@@ -1,16 +1,16 @@
  import React from 'react'
  import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
- import BabyBazarNavbar from './assets/components/Navbar.jsx'
- import BabyBazarFooter from './assets/components/footer.jsx'
-  import BabyBazarHomepage from './assets/components/home.jsx'
-  import Blog from './assets/components/Blog.jsx'
-  import Navbar from './assets/components/Navbar.jsx'
-  import Footer from './assets/components/footer.jsx'
-  import Contactus from './assets/components/Contact.jsx'
-  import BabyCart from './assets/components/Cart.jsx'
-  import ShopPage from './assets/components/Shop.jsx'
-  import LoginRegisterPage from './assets/components/login.jsx'
-  import WishlistPage from './assets/components/Wishlist.jsx'
+ import BabyBazarNavbar from './components/Navbar.jsx'
+ import BabyBazarFooter from './components/footer.jsx'
+  import BabyBazarHomepage from './components/home'
+  import Blog from './components/Blog.jsx'
+  import Navbar from './/components/Navbar.jsx'
+  import Footer from './components/footer.jsx'
+  import Contactus from './components/Contact'
+  import BabyCart from './components/Cart'
+  import ShopPage from './components/Shop'
+  import LoginRegisterPage from './components/login'
+  import WishlistPage from './components/Wishlist'
  export default function App() {
    return (
     <Router>

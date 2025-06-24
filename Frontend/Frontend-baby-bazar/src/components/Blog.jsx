@@ -2,7 +2,7 @@ import React  from 'react';
 import { Search, X, Heart, ShoppingCart, Facebook, Twitter, MessageCircle, Linkedin, Plus } from 'lucide-react';
 import Footer from './footer.jsx';
 import Navbar from './Navbar.jsx';
-import bannerImage from '../images/banner.jpg'; // Adjust the path as necessary
+import bannerImage from '../assets/images/banner.jpg'; // Adjust the path as necessary
 
 const Blog = () => {
 
