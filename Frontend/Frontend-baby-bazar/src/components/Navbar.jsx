@@ -33,12 +33,14 @@ export default function BabyBazarNavbar() {
       <nav className="bg-Pink shadow-sm px-4 lg:px-8 py-4 sticky top-0 ">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 cursor-pointer">
+             <Link to="/">
             <img
               src="https://babyproducts.jbhtechinnovation.com/assets/images/logo.webp"
               alt="BabyBazar Logo"
               className="w-70 object-cover"
             />
+            </Link>
              
           </div>
 
