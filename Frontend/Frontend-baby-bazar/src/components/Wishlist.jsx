@@ -2,6 +2,15 @@ import React, { useState } from 'react';
 import { X, Plus, Minus } from 'lucide-react';
 import Navbar from './Navbar.jsx';
 import Footer from './footer.jsx';
+import Image1 from '../assets/images/categories/diapers.webp';
+import Image2 from '../assets/images/categories/toy1.webp';
+import Brand1 from '../assets/images/brands/brand-1.webp';
+import Brand2 from '../assets/images/brands/brand-2.webp';  
+import Brand3 from '../assets/images/brands/brand-3.webp';
+import Brand4 from '../assets/images/brands/brand-4.webp';
+import Brand5 from '../assets/images/brands/brand-5.webp';
+import Brand6 from '../assets/images/brands/brand-6.webp';
+
 
 const WishlistPage = () => {
   const [wishlistItems, setWishlistItems] = useState([
@@ -10,14 +19,14 @@ const WishlistPage = () => {
       name: 'Mamy Poko Pants',
       price: 300,
       quantity: 1,
-      image: '/api/placeholder/200/200'
+      image: Image1, 
     },
     {
       id: 2,
       name: 'Water Ducks',
       price: 800,
       quantity: 1,
-      image: '/api/placeholder/200/200'
+      image: Image2,
     }
   ]);
 
@@ -188,12 +197,12 @@ const WishlistPage = () => {
         {/* Brand Logos Section */}
         <div className="mt-12">
           <div className="flex flex-wrap justify-center items-center gap-8">
-            <img src="/api/placeholder/80/60" alt="Baby Care Brand 1" className="h-12 object-contain" />
-            <img src="/api/placeholder/80/60" alt="Baby Care Brand 2" className="h-12 object-contain" />
-            <img src="/api/placeholder/80/60" alt="Baby Care Brand 3" className="h-12 object-contain" />
-            <img src="/api/placeholder/80/60" alt="Baby Care Brand 4" className="h-12 object-contain" />
-            <img src="/api/placeholder/80/60" alt="Baby Care Brand 5" className="h-12 object-contain" />
-            <img src="/api/placeholder/80/60" alt="Baby Care Brand 6" className="h-12 object-contain" />
+            <img src={Brand1} alt="Baby Care Brand 1" className="h-20 object-contain" />
+            <img src={Brand2} alt="Baby Care Brand 2" className="h-20 object-contain ml-8" />
+            <img src={Brand3} alt="Baby Care Brand 3" className="h-20 object-contain ml-8" />
+            <img src={Brand4} alt="Baby Care Brand 4" className="h-20 object-contain ml-8" />
+            <img src={Brand5} alt="Baby Care Brand 5" className="h-20 object-contain ml-8" />
+            <img src={Brand6} alt="Baby Care Brand 6" className="h-20 object-contain ml-8" />
           </div>
         </div>
       </div>

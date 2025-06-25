@@ -2,7 +2,13 @@ import React  from 'react';
 import { Search, X, Heart, ShoppingCart, Facebook, Twitter, MessageCircle, Linkedin, Plus } from 'lucide-react';
 import Footer from './footer.jsx';
 import Navbar from './Navbar.jsx';
-import bannerImage from '../assets/images/banner.jpg'; // Adjust the path as necessary
+import bannerImage from '../assets/images/banner.jpg';  
+import Author1 from '../assets/images/blog/author-1.webp';  
+import Author2 from '../assets/images/blog/author-2.webp'; 
+import Author3 from '../assets/images/blog/author-3.webp';
+import BlogPost from '../assets/images/blog/single-blog.webp';  
+import Author from '../assets/images/blog/blog-author-1.webp';
+import BlogPost2 from '../assets/images/blog/blog-author-2.webp';
 
 const Blog = () => {
 
@@ -55,7 +61,7 @@ const Blog = () => {
                 <div className="space-y-4">
                   <div className="flex space-x-3">
                     <img
-                      src="https://images.unsplash.com/photo-1515350540008-a3f566782a3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=80&q=80"
+                      src={Author1}
                       alt="Blog Post"
                       className="w-16 h-16 object-cover rounded"
                     />
@@ -68,7 +74,7 @@ const Blog = () => {
                   </div>
                   <div className="flex space-x-3">
                     <img
-                      src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=80&q=80"
+                      src={Author2}
                       alt="Blog Post"
                       className="w-16 h-16 object-cover rounded"
                     />
@@ -81,7 +87,7 @@ const Blog = () => {
                   </div>
                   <div className="flex space-x-3">
                     <img
-                      src="https://images.unsplash.com/photo-1522444195799-478538b28823?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=80&q=80"
+                      src={Author3}
                       alt="Blog Post"
                       className="w-16 h-16 object-cover rounded"
                     />
@@ -106,7 +112,7 @@ const Blog = () => {
                     <div className="text-2xl font-bold">25</div>
                   </div>
                   <img
-                    src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                    src= {BlogPost}
                     alt="Blog Post"
                     className="w-full h-100 object-cover"
                   />
@@ -117,7 +123,7 @@ const Blog = () => {
                   <div className="flex items-center space-x-4 mb-4 text-sm text-gray-600">
                     <div className="flex items-center space-x-2">
                       <img
-                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=32&h=32&q=80"
+                        src={Author}
                         alt="Author"
                         className="w-8 h-8 rounded-full"
                       />
@@ -183,7 +189,7 @@ const Blog = () => {
                   <div className="border-b pb-6">
                     <div className="flex space-x-4">
                       <img
-                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=64&h=64&q=80"
+                        src={BlogPost2}
                         alt="Frank Warren"
                         className="w-12 h-12 rounded-full"
                       />
@@ -200,7 +206,7 @@ const Blog = () => {
                     <div className="ml-16 mt-4 pt-4 border-t">
                       <div className="flex space-x-4">
                         <img
-                          src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=64&h=64&q=80"
+                          src={Author1}
                           alt="Ronald Black"
                           className="w-12 h-12 rounded-full"
                         />
@@ -219,7 +225,7 @@ const Blog = () => {
                   <div>
                     <div className="flex space-x-4">
                       <img
-                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=64&h=64&q=80"
+                        src={BlogPost2}
                         alt="Beverly Cook"
                         className="w-12 h-12 rounded-full"
                       />

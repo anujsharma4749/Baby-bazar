@@ -14,6 +14,19 @@ import {
 import Navbar from "./Navbar.jsx";
 import Footer from "./footer.jsx";
 import BannerSlider from "./Bannerslider.jsx";
+import Image7 from "../assets/images/product/product (1).webp";
+import Image1 from "../assets/images/categories/diapers.webp";
+import Image2 from "../assets/images/categories/toy1.webp";
+import Image3 from "../assets/images/categories/toy2.webp";
+import Image4 from "../assets/images/categories/feeding products (1).webp";
+import Image5 from "../assets/images/categories/johnson baby.webp";
+import Bottle1 from "../assets/images/categories/kid1.webp";
+import Shoes1 from "../assets/images/product/product-zoom-4.webp";
+import Image6 from "../assets/images/product/on-sale-1.webp";
+import Hero1 from "../assets/images/hero/hero-2.webp";
+import Product1 from "../assets/images/banner/happy-baby-gift-pack-mega-basket-various_1800x1800.webp";
+import Product2 from "../assets/images/banner/happy-baby-gift-pack-product.webp";
+
 export default function BabyBazarHomepage() {
   const [activeTab, setActiveTab] = useState("New");
   //   const [currentSlide, setCurrentSlide] = useState(0);
@@ -24,7 +37,7 @@ export default function BabyBazarHomepage() {
       name: "Kitchen Set",
       price: "₹500",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+        Image7,
       rating: 4,
       category: "New",
     },
@@ -33,7 +46,7 @@ export default function BabyBazarHomepage() {
       name: "Baby Feeding Device",
       price: "₹799",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
+        Image4,
       rating: 5,
       category: "Popular",
     },
@@ -42,7 +55,7 @@ export default function BabyBazarHomepage() {
       name: "Kid Toys",
       price: "₹799",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
+        Image2,
       rating: 4,
       category: "New",
     },
@@ -51,7 +64,7 @@ export default function BabyBazarHomepage() {
       name: "Mamy Poko Pants",
       price: "₹300",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
+        Image1,
       rating: 4,
       category: "Sale",
     },
@@ -60,7 +73,7 @@ export default function BabyBazarHomepage() {
       name: "Soft Plush Teddy",
       price: "₹450",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-4.jpg",
+        " ",
       rating: 5,
       category: "Popular",
     },
@@ -69,7 +82,7 @@ export default function BabyBazarHomepage() {
       name: "Baby Shoes",
       price: "₹600",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-4.jpg",
+        Shoes1,
       rating: 3.5,
       category: "Sale",
     },
@@ -78,7 +91,7 @@ export default function BabyBazarHomepage() {
       name: "Wooden Puzzle",
       price: "₹350",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-4.jpg",
+        " ",
       rating: 4,
       category: "New",
     },
@@ -87,7 +100,7 @@ export default function BabyBazarHomepage() {
       name: "Baby Shampoo",
       price: "₹250",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-4.jpg",
+        " ",
       rating: 4.5,
       category: "Popular",
     },
@@ -96,7 +109,7 @@ export default function BabyBazarHomepage() {
       name: "Kitchen Set",
       price: "₹500",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+        Image7,
       rating: 4,
       category: "New",
     },
@@ -105,7 +118,7 @@ export default function BabyBazarHomepage() {
       name: "Baby Shampoo",
       price: "₹250",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+        "",
       rating: 4.5,
       category: "Popular",
     },
@@ -114,7 +127,7 @@ export default function BabyBazarHomepage() {
       name: "Baby Shoes",
       price: "₹600",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+        Shoes1,
       rating: 3.5,
       category: "Sale",
     },
@@ -123,7 +136,7 @@ export default function BabyBazarHomepage() {
       name: "Baby Shoes",
       price: "₹600",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+        Shoes1,
       rating: 3.5,
       category: "Sale",
     },
@@ -135,7 +148,7 @@ export default function BabyBazarHomepage() {
       name: "Mamy Poko Pants",
       price: "₹300",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
+        Image1,
       rating: 4,
       sizes: ["S", "M", "L", "XL"],
       colors: ["pink", "blue", "green", "orange"],
@@ -145,7 +158,7 @@ export default function BabyBazarHomepage() {
       name: "Water Ducks",
       price: "₹800",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
+        Image2,
       rating: 5,
       sizes: ["S", "M", "L", "XL"],
       colors: ["pink", "blue", "green", "orange"],
@@ -155,7 +168,7 @@ export default function BabyBazarHomepage() {
       name: "Baby Feeding",
       price: "₹1000",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+        Bottle1,
       rating: 4,
       sizes: ["S", "M", "L", "XL"],
       colors: ["pink", "blue", "green", "orange"],
@@ -165,7 +178,7 @@ export default function BabyBazarHomepage() {
       name: "Kids Shoe",
       price: "₹500",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+        Shoes1,
       rating: 4,
       sizes: ["S", "M", "L", "XL"],
       colors: ["pink", "blue", "green", "orange"],
@@ -176,22 +189,22 @@ export default function BabyBazarHomepage() {
     {
       name: "Baby Oil",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+        Image5,
     },
     {
       name: "Feeding Products",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
+        Bottle1,
     },
     {
       name: "Diapers",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-3.webp",
+        Image1,
     },
     {
       name: "Toys",
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-4.webp",
+        Image2,
     },
   ];
 
@@ -336,7 +349,7 @@ export default function BabyBazarHomepage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="relative">
                 <img
-                  src="https://babyproducts.jbhtechinnovation.com/assets/images/banner/happy-baby-gift-pack-mega-baske.webp"
+                  src= {Product1}
                   alt="New Season Sale"
                   className="w-full h-64 object-cover"
                 />
@@ -357,7 +370,7 @@ export default function BabyBazarHomepage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="relative">
                 <img
-                  src="https://babyproducts.jbhtechinnovation.com/assets/images/banner/baby-gift-pack-product.webp"
+                  src={Product2}
                   alt="BodyCare Products"
                   className="w-full h-64 object-cover"
                 />
@@ -442,7 +455,7 @@ export default function BabyBazarHomepage() {
           <div className="relative h-[300px] md:h-[400px] lg:h-[400px] rounded-lg overflow-hidden">
             {/* Background Image */}
             <img
-              src="https://babyproducts.jbhtechinnovation.com/assets/images/hero/hero-2.jpg"
+              src={Hero1}
               alt="Happy child with sunglasses"
               className="absolute inset-0 w-full h-full object-cover"
             />

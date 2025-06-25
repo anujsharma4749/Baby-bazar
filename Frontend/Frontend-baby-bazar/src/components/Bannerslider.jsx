@@ -1,24 +1,27 @@
 import { useEffect, useState, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Hero1 from "../assets/images/hero/hero-2.webp"; // Adjust the import path as necessary
+import Hero2 from "../assets/images/hero/baby.webp";
+import Hero3 from "../assets/images/hero/hero.webp";
 
 const banners = [
   {
     id: 1,
-    image: "https://babyproducts.jbhtechinnovation.com/assets/images/hero/hero.webp",
+    image: Hero2,
     title: "Spring Season",
     subtitle: "Sale For Kids",
     buttonText: "SHOP NOW"
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1591955506264-3f5a6834570a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image: Hero3,
     title: "New Arrivals",
     subtitle: "Cute & Comfy",
     buttonText: "DISCOVER"
   },
   {
     id: 3,
-    image: "https://babyproducts.jbhtechinnovation.com/assets/images/hero/baby.webp",
+    image:  Hero1,
     title: "Summer Collection",
     subtitle: "Cool & Comfortable",
     buttonText: "EXPLORE"

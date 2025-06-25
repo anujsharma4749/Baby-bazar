@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar.jsx'
 import Footer from './footer.jsx'
-// import { useState } from 'react';
- function Contactus() {
+import Hero3 from '../assets/images/hero/hero-1.webp';   
+function Contactus() {
 //   const [count, setCount] = useState(0);
 
   
@@ -13,7 +13,7 @@ import Footer from './footer.jsx'
       <div className="relative h-72 md:h-80 w-full">
         {/* Background Image */}
         <img
-          src="https://babyproducts.jbhtechinnovation.com/assets/images/hero/hero-1.jpg"
+          src={Hero3}
           alt="Hero"
           className="h-full w-full object-cover"
         />

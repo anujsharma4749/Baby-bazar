@@ -2,6 +2,16 @@ import React, { useState } from "react";
 import { ChevronDown, ChevronLeft, ChevronRight } from "lucide-react";
 import Footer from "./footer.jsx";
 import Navbar from "./Navbar.jsx";
+import Image1 from "../assets/images/categories/diapers.webp";
+import Image2 from "../assets/images/categories/toy1.webp";
+import Image3 from "../assets/images/categories/toy2.webp";
+import Bottle1 from "../assets/images/categories/kid1.webp";
+import Shoes1 from "../assets/images/product/product-zoom-4.webp";
+import Image4 from "../assets/images/categories/feeding products (1).webp";
+import Image5 from "../assets/images/categories/johnson baby.webp";
+import Image6 from "../assets/images/product/on-sale-1.webp";
+import Image7 from "../assets/images/product/product (1).webp";
+
 
 const ShopPage = () => {
   const [showItems, setShowItems] = useState(8);
@@ -15,7 +25,7 @@ const ShopPage = () => {
       originalPrice: 390,
       salePrice: 300,
       rating: 4.5,
-      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+      image: Image1,
     },
     {
       id: 2,
@@ -23,8 +33,7 @@ const ShopPage = () => {
       originalPrice: 2100,
       salePrice: 800,
       rating: 4.5,
-      image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
+      image:Image2,
     },
     {
       id: 3,
@@ -32,8 +41,7 @@ const ShopPage = () => {
       originalPrice: 799,
       salePrice: 1000,
       rating: 4.5,
-      image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+      image:Bottle1,
     },
   ];
 
@@ -43,7 +51,7 @@ const ShopPage = () => {
       name: "Kids Shoe",
       price: 500,
       rating: 3.5,
-      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-3.webp",
+      image: Shoes1,
     },
     {
       id: 2,
@@ -51,7 +59,7 @@ const ShopPage = () => {
       price: 500,
       rating: 4.5,
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
+         Image5,
     },
     {
       id: 3,
@@ -59,22 +67,21 @@ const ShopPage = () => {
       price: 500,
       rating: 3,
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+         Image7,
     },
     {
       id: 4,
       name: "Mamy Poko Pants",
       price: 300,
       rating: 3,
-      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-3.webp",
+      image: Image1,
     },
     {
       id: 5,
       name: "Water Ducks",
       price: 800,
       rating: 5,
-      image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+      image: Image2,
     },
     {
       id: 6,
@@ -82,7 +89,7 @@ const ShopPage = () => {
       price: 1000,
       rating: 4,
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
+         Bottle1,
     },
     {
       id: 7,
@@ -90,14 +97,14 @@ const ShopPage = () => {
       price: 799,
       rating: 5,
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-1.webp",
+         Image4,
     },
     {
       id: 8,
       name: "Kid Toys",
       price: 799,
       rating: 4,
-      image: "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+      image: Image3,
     },
     {
       id: 9,
@@ -106,7 +113,7 @@ const ShopPage = () => {
       salePrice: 19,
       rating: 4.5,
       image:
-        "https://babyproducts.jbhtechinnovation.com/assets/images/product/product-2.webp",
+         Image6,
     },
   ];
 
