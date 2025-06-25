@@ -121,36 +121,36 @@ export default function BabyBazarNavbar() {
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4 border-t border-gray-200">
             <div className="flex flex-col space-y-4 pt-4">
-              <a
-                href="#"
-                className="text-gray-700 hover:text-pink-500 font-medium transition-colors"
-              >
-                HOME
-              </a>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-pink-500 font-medium transition-colors"
-              >
-                BABY OIL
-              </a>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-pink-500 font-medium transition-colors"
-              >
-                TOYS
-              </a>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-pink-500 font-medium transition-colors"
-              >
-                BLOG
-              </a>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-pink-500 font-medium transition-colors"
-              >
-                CONTACT
-              </a>
+             <Link
+              to="/"
+              className="text-gray-700 hover:text-pink-500 font-medium transition-colors"
+            >
+              HOME
+            </Link>
+            <Link
+              to="/shop"
+              className="text-gray-700 hover:text-pink-500 font-medium transition-colors"
+            >
+              BABY OIL
+            </Link>
+            <Link
+              to="/shop"
+              className="text-gray-700 hover:text-pink-500 font-medium transition-colors"
+            >
+              TOYS
+            </Link>
+            <Link
+              to="/blog"
+              className="text-gray-700 hover:text-pink-500 font-medium transition-colors"
+            >
+              BLOG
+            </Link>
+            <Link
+              to="/contact"
+              className="text-gray-700 hover:text-pink-500 font-medium transition-colors"
+            >
+              CONTACT
+            </Link>
             </div>
           </div>
         )}
