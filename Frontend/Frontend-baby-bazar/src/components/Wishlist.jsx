@@ -104,8 +104,8 @@ const WishlistPage = () => {
                           <X size={20} />
                         </button>
                       </div>
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center border border-gray-200 rounded-lg overflow-hidden">
+                      <div className="flex items-center justify-between ">
+                        <div className="flex items-center border border-gray-200 rounded-lg overflow-hidden ">
                           <button
                             onClick={() => updateQuantity(item.id, -1)}
                             className="p-2 hover:bg-gray-50 transition-colors"
@@ -122,7 +122,7 @@ const WishlistPage = () => {
                         </div>
                         <button
                           onClick={() => addToCart(item.id)}
-                          className="bg-black text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-gray-800 transition-colors"
+                          className="bg-black text-white px-4 py-2 rounded-full text-xs  hover:bg-gray-800 transition-colors"
                         >
                           ADD TO CART
                         </button>

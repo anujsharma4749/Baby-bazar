@@ -240,11 +240,11 @@ export default function BabyBazarHomepage() {
 
       {/* Categories Section */}
       <section className="py-16 bg-pink-100">
-        <div className="max-w-7xl mx-auto px-4 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 lg:px-6 ">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
             Categories
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-8">
             {categories.map((category, index) => (
               <div key={index} className="text-center group cursor-pointer">
                 <div className="bg-white rounded-lg p-6 mb-4 group-hover:shadow-lg transition-shadow">
@@ -384,9 +384,6 @@ export default function BabyBazarHomepage() {
           </h2>
 
           <div className="relative">
-            <button className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-pink-400 hover:bg-pink-500 text-white p-3 rounded-full ">
-              <ChevronLeft className="w-6 h-6" />
-            </button>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {bestSellers.map((product) => (
@@ -400,16 +397,7 @@ export default function BabyBazarHomepage() {
                       alt={product.name}
                       className="w-full h-64 object-cover"
                     />
-                    {product.name === "Kids Shoe" && (
-                      <div className="absolute top-4 right-4 bg-white p-3 rounded-lg shadow-md">
-                        <button className="bg-pink-500 text-white px-4 py-2 rounded mb-2 text-sm">
-                          ADD TO CART
-                        </button>
-                        <button className="text-pink-500 text-sm block">
-                          ADD TO WISHLIST
-                        </button>
-                      </div>
-                    )}
+                     
                   </div>
                   <div className="p-6">
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
@@ -443,9 +431,7 @@ export default function BabyBazarHomepage() {
               ))}
             </div>
 
-            <button className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-pink-400 hover:bg-pink-500 text-white p-3 rounded-full ">
-              <ChevronRight className="w-6 h-6" />
-            </button>
+             
           </div>
         </div>
       </section>
@@ -462,7 +448,7 @@ export default function BabyBazarHomepage() {
             />
 
             {/* Overlay Text */}
-            <div className="absolute inset-0 bg-gradient-to-r from-pink-200/80 to-blue-200/80 flex items-center justify-start p-12">
+            <div className="absolute inset-0 flex items-center justify-start p-12">
               <div>
                 <h2 className="text-4xl md:text-5xl font-bold text-pink-600 mb-2">
                   Your Baby's Smile,

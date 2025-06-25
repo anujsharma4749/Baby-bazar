@@ -114,19 +114,19 @@ export default function BannerSlider() {
       {/* Arrows */}
       <button
         onClick={prevSlide}
-        className="absolute left-2 top-1/2 transform -translate-y-1/2 z-30 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition-all md:left-4"
+        className="absolute left-2 top-1/2 transform -translate-y-1/2  bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition-all md:left-4"
       >
         <ChevronLeft className="w-5 h-5 md:w-6 md:h-6 text-gray-700" />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-2 top-1/2 transform -translate-y-1/2 z-30 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition-all md:right-4"
+        className="absolute right-2 top-1/2 transform -translate-y-1/2  bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition-all md:right-4"
       >
         <ChevronRight className="w-5 h-5 md:w-6 md:h-6 text-gray-700" />
       </button>
 
       {/* Dots */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 z-30">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 ">
         {banners.map((_, index) => (
           <button
             key={index}
