@@ -93,10 +93,10 @@ export default function BannerSlider() {
               </div>
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-r from-white/70 to-pink-100/50" />
+              <div className="absolute inset-0 bg-gradient-to-r from-white/10 to-pink-100/50" />
 
               {/* Text */}
-              <div className="absolute inset-0 flex flex-col justify-center items-center px-4 text-center md:items-start md:px-8 md:text-left z-20">
+              <div className="absolute inset-0 flex flex-row mt-45 justify-center items-center px-4 text-center md:items-start md:px-8 md:text-left z-20">
                 <div className="max-w-xl">
                   <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-2 animate-fadeIn">
                     {banner.title}
