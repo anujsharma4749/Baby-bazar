@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Search, Heart, ShoppingCart, Menu, X } from "lucide-react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Logo from '../assets/images/logo.webp';
 export default function BabyBazarNavbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -36,7 +37,7 @@ export default function BabyBazarNavbar() {
           <div className="flex items-center space-x-2 cursor-pointer">
              <Link to="/">
             <img
-              src="https://babyproducts.jbhtechinnovation.com/assets/images/logo.webp"
+              src={Logo}
               alt="BabyBazar Logo"
               className="w-70 object-cover"
             />

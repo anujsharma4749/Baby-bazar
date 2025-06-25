@@ -11,6 +11,7 @@ import Image4 from "../assets/images/categories/feeding products (1).webp";
 import Image5 from "../assets/images/categories/johnson baby.webp";
 import Image6 from "../assets/images/product/on-sale-1.webp";
 import Image7 from "../assets/images/product/product (1).webp";
+import Hero1 from "../assets/images/hero/hero-2.webp";  
 
 
 const ShopPage = () => {
@@ -162,7 +163,7 @@ const ShopPage = () => {
       {/* Header */}
       <div className="relative h-64 bg-gradient-to-r from-pink-200 to-purple-200 overflow-hidden">
         <img
-          src="https://babyproducts.jbhtechinnovation.com/assets/images/hero/hero-1.jpg"
+          src= {Hero1}
           alt="Baby banner"
           className="w-full h-full object-cover opacity-50"
         />

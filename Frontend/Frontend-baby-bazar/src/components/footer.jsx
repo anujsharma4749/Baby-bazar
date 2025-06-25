@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowUp } from 'lucide-react';
-
+import Logo from '../assets/images/logo.webp';
 export default function BabyBazarFooter() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -18,7 +18,7 @@ export default function BabyBazarFooter() {
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-6">
               <img 
-                src="https://babyproducts.jbhtechinnovation.com/assets/images/logo.webp" 
+                src={Logo} 
                 alt="BabyBazar Logo" 
                 className="w-full object-cover"
               />
